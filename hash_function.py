@@ -3,8 +3,8 @@ import random
 def hash_f(arg):
     number = 0
     next_num = 0
-    a = random.randint(1, 5)
-    b = random.randint(1, 6)
+    a = 5
+    b = 4
     c = random.randint(1024, 4096)
     for i in arg:
         number += int(ord(i))//len(arg)
